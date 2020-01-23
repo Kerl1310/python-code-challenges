@@ -7,8 +7,8 @@ def christmas_tree(height):
     '''
     try:
         height = int(height)
-    #except:
-    #    raise TypeError('Height must be of type int. Actual type: {}'.format(type(height)))
+    except:
+        raise TypeError('Height must be of type int. Actual type: {}'.format(type(height)))
     if height is None or height < 1 or height > 100:
         raise ValueError('Height must contain a value greater than 0')
 
