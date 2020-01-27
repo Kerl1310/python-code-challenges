@@ -1,4 +1,4 @@
-# Daily Challenge - Christmas Tree
+# Daily Challenge - String Peeler
 Inspired by: https://dev.to/thepracticaldev/daily-challenge-1-string-peeler-4nep
 
 ## Description
