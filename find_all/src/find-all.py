@@ -39,3 +39,5 @@ try:
     value_in = int(args.value)
 except:
     pass
+
+print(find_all(list_in, value_in))
