@@ -10,7 +10,5 @@ Multiply a given number `x` by the sum of it's digits. Then subtract the reverse
 * `x % 1 == 0`
 
 ## Test Cases
-calculate(1)
+calculate(10)
 calculate(103)
-calculate(-42)
-calculate(0)

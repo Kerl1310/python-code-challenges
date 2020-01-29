@@ -6,6 +6,11 @@ def calculate(number):
     Calculate the value using the formula provided in the scenario.
     '''
     number_as_string = str(number)
+    if number < 0:
+        raise ValueError('Value must be positive.')
+    if number < 9:
+        raise ValueError('Value must contain multiple digits.')
+
     sum_of_digits = calculateSumOfDigits(number_as_string)
 
     result = number * sum_of_digits
@@ -13,7 +18,6 @@ def calculate(number):
 
     if result > 0 and (result % 10) != 0 and (result % 1) == 0:
         return result
-    return 0
 
 
 def calculateSumOfDigits(number_as_string):
@@ -27,4 +31,4 @@ def calculateSumOfDigits(number_as_string):
 
 
 if len(sys.argv) > 0:
-    print(calculate(sys.argv[1]))
+    print(calculate(int(sys.argv[1])))
