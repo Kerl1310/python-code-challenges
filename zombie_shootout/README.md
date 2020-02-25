@@ -1,5 +1,5 @@
 # Daily Challenge - Zombie Shootout
-Inspired by: 
+Inspired by: https://dev.to/thepracticaldev/daily-challenge-192-can-you-survive-the-zombies-5fkk
 
 ## Description
 Unfortunately, you have found yourself in a difficult situation. You have injured your leg and are unable to walk. A number `n` of zombies are shuffling towards you, intent on eating your brains. Luckily, you've got your trusty rifle.
