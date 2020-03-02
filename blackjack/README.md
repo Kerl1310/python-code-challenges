@@ -1,4 +1,4 @@
-# Daily Challenge - Population Growth
+# Daily Challenge - Blackjack
 Inspired by: https://dev.to/thepracticaldev/daily-challenge-198-21-blackjack-31mg
 
 ## Description
